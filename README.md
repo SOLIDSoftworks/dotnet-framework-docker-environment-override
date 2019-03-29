@@ -15,4 +15,4 @@ Now run it in docker
       solid/docker-demo-site
 
 ## Read more
-We [blogged](https://solidsoft.works) about this.
+We [blogged](https://solidsoft.works/2019/03/29/substituting-custom-web-config-sections-with-environment-variables-for-docker/) about this.
