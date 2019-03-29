@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "WebSite\WebSite.csproj", "{E077FD0A-FF10-4372-8FB1-883F6212F843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.Containers.Configuration", "Solid.Containers.Configuration\Solid.Containers.Configuration.csproj", "{ADF83E4C-FD31-4042-BF1A-199D06250370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite.Configuration", "WebSite.Configuration\WebSite.Configuration.csproj", "{8FD33A3D-A11B-4C19-A859-BB7D500665BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{2103CDF9-2EA6-479B-90E5-DE9E734BB013}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceMonitor", "ServiceMonitor", "{877A6FE1-7C26-42B8-9DA6-E2B065FE531B}"
+	ProjectSection(SolutionItems) = preProject
+		ServiceMonitor\appsettings.json = ServiceMonitor\appsettings.json
+		ServiceMonitor\Microsoft.Extensions.Configuration.Abstractions.dll = ServiceMonitor\Microsoft.Extensions.Configuration.Abstractions.dll
+		ServiceMonitor\Microsoft.Extensions.Configuration.Binder.dll = ServiceMonitor\Microsoft.Extensions.Configuration.Binder.dll
+		ServiceMonitor\Microsoft.Extensions.Configuration.dll = ServiceMonitor\Microsoft.Extensions.Configuration.dll
+		ServiceMonitor\Microsoft.Extensions.Configuration.EnvironmentVariables.dll = ServiceMonitor\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+		ServiceMonitor\Microsoft.Extensions.Configuration.FileExtensions.dll = ServiceMonitor\Microsoft.Extensions.Configuration.FileExtensions.dll
+		ServiceMonitor\Microsoft.Extensions.Configuration.Json.dll = ServiceMonitor\Microsoft.Extensions.Configuration.Json.dll
+		ServiceMonitor\Microsoft.Extensions.DependencyInjection.Abstractions.dll = ServiceMonitor\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+		ServiceMonitor\Microsoft.Extensions.DependencyInjection.dll = ServiceMonitor\Microsoft.Extensions.DependencyInjection.dll
+		ServiceMonitor\Microsoft.Extensions.FileProviders.Abstractions.dll = ServiceMonitor\Microsoft.Extensions.FileProviders.Abstractions.dll
+		ServiceMonitor\Microsoft.Extensions.FileProviders.Physical.dll = ServiceMonitor\Microsoft.Extensions.FileProviders.Physical.dll
+		ServiceMonitor\Microsoft.Extensions.FileSystemGlobbing.dll = ServiceMonitor\Microsoft.Extensions.FileSystemGlobbing.dll
+		ServiceMonitor\Microsoft.Extensions.Logging.Abstractions.dll = ServiceMonitor\Microsoft.Extensions.Logging.Abstractions.dll
+		ServiceMonitor\Microsoft.Extensions.Logging.Configuration.dll = ServiceMonitor\Microsoft.Extensions.Logging.Configuration.dll
+		ServiceMonitor\Microsoft.Extensions.Logging.Console.dll = ServiceMonitor\Microsoft.Extensions.Logging.Console.dll
+		ServiceMonitor\Microsoft.Extensions.Logging.dll = ServiceMonitor\Microsoft.Extensions.Logging.dll
+		ServiceMonitor\Microsoft.Extensions.Options.ConfigurationExtensions.dll = ServiceMonitor\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+		ServiceMonitor\Microsoft.Extensions.Options.dll = ServiceMonitor\Microsoft.Extensions.Options.dll
+		ServiceMonitor\Microsoft.Extensions.Primitives.dll = ServiceMonitor\Microsoft.Extensions.Primitives.dll
+		ServiceMonitor\Newtonsoft.Json.dll = ServiceMonitor\Newtonsoft.Json.dll
+		ServiceMonitor\ServiceMonitor.exe = ServiceMonitor\ServiceMonitor.exe
+		ServiceMonitor\ServiceMonitor.exe.config = ServiceMonitor\ServiceMonitor.exe.config
+		ServiceMonitor\System.Buffers.dll = ServiceMonitor\System.Buffers.dll
+		ServiceMonitor\System.Memory.dll = ServiceMonitor\System.Memory.dll
+		ServiceMonitor\System.Numerics.Vectors.dll = ServiceMonitor\System.Numerics.Vectors.dll
+		ServiceMonitor\System.Runtime.CompilerServices.Unsafe.dll = ServiceMonitor\System.Runtime.CompilerServices.Unsafe.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E077FD0A-FF10-4372-8FB1-883F6212F843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E077FD0A-FF10-4372-8FB1-883F6212F843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E077FD0A-FF10-4372-8FB1-883F6212F843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E077FD0A-FF10-4372-8FB1-883F6212F843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF83E4C-FD31-4042-BF1A-199D06250370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF83E4C-FD31-4042-BF1A-199D06250370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF83E4C-FD31-4042-BF1A-199D06250370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF83E4C-FD31-4042-BF1A-199D06250370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD33A3D-A11B-4C19-A859-BB7D500665BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD33A3D-A11B-4C19-A859-BB7D500665BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD33A3D-A11B-4C19-A859-BB7D500665BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD33A3D-A11B-4C19-A859-BB7D500665BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{877A6FE1-7C26-42B8-9DA6-E2B065FE531B} = {2103CDF9-2EA6-479B-90E5-DE9E734BB013}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4AAC8B0-AD2C-430F-8128-84F3CCEE08FD}
+	EndGlobalSection
+EndGlobal
